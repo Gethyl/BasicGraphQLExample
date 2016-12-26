@@ -1,0 +1,27 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Todo Express-MongoDB server",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "dev3": "babel-node  server.js"
+
+  },
+  "author": "Gethyl George",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-graphql": "^0.6.1",
+    "graphql": "^0.8.2",
+    "mongoose": "^4.7.2"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "nodemon": "^1.11.0"
+  }
+}
